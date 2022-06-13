@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    
+        <title>Fractal</title>
+</head>
+    <body>
+        <h2>Trabalho de matemática - Ângelo Gabriel Bastos Pinto, Izzana Barbosa Martins e José Vinícius de Melo Ribeiro</h2>
+        <h5>Árvore farctal feita com HTML, JavaScript e CSS</h5>
+        <div><h4>Estudo de algoritmos</h4></div>
+
+        <h4>Fractal</h4>
+        <div id="texto">    
+            Criar um código que faça uma árvore fractal, feita por meio de equações matemáticas, lidas pelo computador em JavaScript e mostrada no Canvas por meio de HTML, onde a depender dos parâmetros passados ela irá produzir mais ou menos “cópias”, repetindo o padrão e literalmente fazendo uma árvore. 
+            A árvore fractal é desenhada pois fazemos a chamada da função dentro dela mesma. A primeira vez que a chamamos estamos criando a parte esquerda da árvore e na segunda vez estamos criando a parte direita. A function draw é uma função loop que roda a 60fps, por causa disso ela repete o padrão passado dentro dele por meio dos parâmetros definidos na chamada da função, e a cada repetição ela rotaciona e gera um elemento recursivo, desenhando retas cada vez menores
+        </div>
+            
+        <canvas id="my_canvas" width="1000" height="800" ></canvas> 
+    </body>
+    <script src="main.js"></script>
+</html>

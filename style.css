@@ -1,0 +1,9 @@
+body {
+    text-align: Center;
+    background: rgba(43, 214, 180, 0.75)
+}
+
+#texto {
+    text-align:justify;
+    font-size: large;
+}
